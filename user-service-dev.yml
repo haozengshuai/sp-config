@@ -9,7 +9,7 @@ spring:
   cloud:
     config:
       override-none: true
-      search-paths: config
+      
 server:
   port: 8101   
 eureka:

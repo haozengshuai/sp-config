@@ -4,13 +4,13 @@ spring:
   cloud:
     config:
       override-none: true
-      search-paths: config
+    
 server:
   port: 8201
 eureka:
   client:
     service-url:
-      defaultZone:  http://eureka1:2001/eureka
+      defaultZone:  http://eureka1:8761/eureka/
       
 feign:
   hystrix:
